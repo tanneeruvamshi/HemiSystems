@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  --font-display: "Space Grotesk", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  --color-slate-950: #030712;
+  --color-lead: #090e1a;
+  --color-cosmic: #0a0f1d;
+  --color-goldaccent: #cfa86b; /* Sophisticated vintage platinum-gold accent */
+  --color-cybercyan: #02f5ff; /* Secondary neon cyan highlight for interactive elements */
+}
+
+/* Custom Base styles */
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-slate-950);
+  color: #f3f4f6;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Scrollbar customizations to fit Stripe/Apple minimalist templates */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #030712;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1f2937;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #cfa86b;
+}
+
+/* Custom background animations & grid pattern accents */
+.bg-grid-mesh {
+  background-size: 40px 40px;
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+}
+
+.glow-gradient {
+  background: radial-gradient(circle at 50% 50%, rgba(207, 168, 107, 0.05) 0%, transparent 80%);
+}
+
+.glow-cyan {
+  background: radial-gradient(circle at 50% 50%, rgba(2, 245, 255, 0.05) 0%, transparent 80%);
+}

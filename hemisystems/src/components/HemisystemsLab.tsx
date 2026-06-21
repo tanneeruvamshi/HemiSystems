@@ -38,8 +38,8 @@ const LOCAL_LAB_CONCEPTS: LocalLabConcept[] = [
     title: "AI Operations Assistant",
     problem: "Level 1 support teams are overwhelmed by basic repetitive inquiries, and escalation rules rely on human routing.",
     businessOutcome: "Sub-second triage and resolution for basic inquiries. Drastic reduction in manual support ticketing and mean-time-to-resolution (MTTR).",
-    architecture: "Event-driven Webhook → Validation Middleware → Azure OpenAI → System API mutation",
-    techStack: ["Copilot Studio", "Azure OpenAI", "Power Automate", "Microsoft Dataverse"],
+    architecture: "Event-driven Webhook → Validation Middleware → AI Foundation Models → System API mutation",
+    techStack: ["Custom AI Agents", "AI Foundation Models", "Workflow Orchestration", "Microsoft Cloud Databases"],
     previewType: "log",
     previewData: [
       { time: "08:12:04", event: "Inbound Request Detected: Reset Server Instance", status: "Triggered" },
@@ -55,7 +55,7 @@ const LOCAL_LAB_CONCEPTS: LocalLabConcept[] = [
     problem: "Customers lack direct access to order states, sending emails for simple tracking requests and bogging down support.",
     businessOutcome: "Empowers customers with instant on-demand information loops. Offloads up to 60% of routine B2B customer support inquiries.",
     architecture: "React headless frontend connected via API Management gateway to back-office ERP/CRM systems.",
-    techStack: ["React", "TypeScript", "Vite", "Azure API Management", "Dynamics 365"],
+    techStack: ["React", "TypeScript", "Vite", "Cloud Platforms API Management", "Enterprise ERP"],
     previewType: "visualizer"
   },
   {
@@ -63,14 +63,14 @@ const LOCAL_LAB_CONCEPTS: LocalLabConcept[] = [
     title: "Intelligent Approval Center",
     problem: "Approvals are scattered across email, Slack, and various SaaS tools resulting in orphaned tasks and delayed business momentum.",
     businessOutcome: "A centralized command queue ensuring compliance, standardizing audit trails, and enabling rapid one-click organizational clearance.",
-    architecture: "Service Bus ingestion queue aggregates data into a central Dataverse state-machine, presented via a singular Power App.",
-    techStack: ["Power Apps Canvas", "Microsoft Dataverse", "Azure Service Bus", "Power Automate"],
+    architecture: "Service Bus ingestion queue aggregates data into a central Cloud Databases state-machine, presented via a singular Power App.",
+    techStack: ["Custom Web Apps Canvas", "Microsoft Cloud Databases", "Cloud Platforms Service Bus", "Workflow Orchestration"],
     previewType: "dashboard",
     previewData: {
       items: [
         { system: "SAP ERP", id: "REQ-2092", value: "$4,500 Procurement", status: "Awaiting Finance Approval" },
         { system: "Workday HR", id: "OFFER-032", value: "Senior Dev Hire", status: "Awaiting VP Sign-off" },
-        { system: "Dynamics", id: "DISC-881", value: "30% Discount Auth", status: "Awaiting Sales Director" }
+        { system: "Salesforce", id: "DISC-881", value: "30% Discount Auth", status: "Awaiting Sales Director" }
       ]
     }
   },
@@ -79,8 +79,8 @@ const LOCAL_LAB_CONCEPTS: LocalLabConcept[] = [
     title: "Sales Acceleration Platform",
     problem: "Sales reps spend 40% of their time on data entry instead of selling. CRMs are often glorified contact databases instead of active sellers.",
     businessOutcome: "Increases active selling time and conversion velocity by predicting next-best-actions and automating busywork.",
-    architecture: "Dynamics 365 Sales core enhanced by Copilot to draft communications, parse meeting notes, and auto-update opportunity stages.",
-    techStack: ["Dynamics 365 Sales", "Sales Copilot", "Power Automate", "Microsoft Teams Integration"],
+    architecture: "Enterprise ERP Sales core enhanced by AI Foundation Models to draft communications, parse meeting notes, and auto-update opportunity stages.",
+    techStack: ["Enterprise ERP Sales", "Sales AI Foundation Models", "Workflow Orchestration", "Slack \& Teams Integration"],
     previewType: "cards"
   },
   {
@@ -88,8 +88,8 @@ const LOCAL_LAB_CONCEPTS: LocalLabConcept[] = [
     title: "Service Management Workspace",
     problem: "Disjointed tooling between engineering arrays, IT tracking, and customer service leads to lost context during escalation.",
     businessOutcome: "Unifies the service ecosystem allowing level 1 and 3 agents to view identical contexts, radically improving SLA attainment.",
-    architecture: "Integrated Omnichannel workspace with unified routing connecting Dataverse case-entities to field operations.",
-    techStack: ["Dynamics 365", "Omnichannel", "Power Virtual Agents", "Dataverse"],
+    architecture: "Integrated Omnichannel workspace with unified routing connecting Cloud Databases case-entities to field operations.",
+    techStack: ["Enterprise ERP", "Omnichannel", "Power Virtual Agents", "Cloud Databases"],
     previewType: "cards"
   },
   {
@@ -98,7 +98,7 @@ const LOCAL_LAB_CONCEPTS: LocalLabConcept[] = [
     problem: "Executives make high-stakes decisions based on fragmented reports that are 30 days old and heavily manipulated by middle-management.",
     businessOutcome: "Real-time, unfiltered ground truth. Predictive forecasting and macro-trends displayed vividly at boardroom scale.",
     architecture: "Direct ingestion layer replicating transactional data into Fabric OneLake, feeding live Power BI datasets.",
-    techStack: ["Microsoft Fabric", "Azure Synapse Serverless", "Power BI Premium", "React Visualizations"],
+    techStack: ["Multi-Cloud Data Lakes", "Cloud Platforms Synapse Serverless", "Power BI Premium", "React Visualizations"],
     previewType: "stats"
   }
 ];

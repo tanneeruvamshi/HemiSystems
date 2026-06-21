@@ -101,7 +101,7 @@ export interface ResearchArticle {
   id: string;
   title: string;
   excerpt: string;
-  category: "Power Platform" | "Dynamics 365" | "AI" | "Enterprise Architecture" | "Azure" | "Data Platforms" | "Software Engineering";
+  category: "Full-Stack Cloud" | "Enterprise ERP" | "AI" | "Enterprise Architecture" | "AWS / GCP / Azure" | "Data Platforms" | "Software Engineering";
   readTime: string;
   author: string;
   publishedAt: string;

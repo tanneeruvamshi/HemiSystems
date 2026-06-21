@@ -27,11 +27,11 @@ interface Article {
 
 const TOPICS = [
   "All Articles",
-  "Power Platform",
-  "Dynamics 365",
+  "Full-Stack Cloud",
+  "Enterprise ERP",
   "Enterprise Architecture",
   "AI Strategy",
-  "Azure",
+  "AWS / GCP / Azure",
   "Data Platforms",
   "Automation",
   "Software Engineering"
@@ -78,14 +78,14 @@ The next frontier is hybrid determinism: combining the probabilistic nature of L
     id: "power_plat_gov",
     title: "Citizen Developers within Elite Frameworks",
     excerpt: "How to govern low-code solutions without stifling operational innovation.",
-    category: "Power Platform",
+    category: "Full-Stack Cloud",
     readTime: "6 MIN READ",
     author: "Sarah Chen",
     publishedAt: "JANUARY 18, 2026",
     aiSummary: "Low-code platforms require strict environmental governance. Establish clear data loss prevention (DLP) policies and center of excellence (CoE) guidelines before allowing citizen development.",
     content: `The democratization of software development is a dual-edged sword. While it enables rapid problem-solving on the front lines, it inevitably leads to "shadow IT" if left ungoverned.
 
-To safely deploy Power Platform, organizations must adopt a tiered environment strategy:
+To safely deploy Full-Stack Cloud, organizations must adopt a tiered environment strategy:
 - Personal Productivity (Default Environment)
 - Departmental Operations (Dedicated Environments with DLP)
 - Enterprise Core (Pro-development managed solutions)
@@ -97,26 +97,26 @@ By enforcing these boundaries, enterprise architecture teams can sleep at night 
     id: "dynamics_omni",
     title: "The Unified Customer Truth",
     excerpt: "Breaking down the barriers between sales forecasting and customer service realities.",
-    category: "Dynamics 365",
+    category: "Enterprise ERP",
     readTime: "9 MIN READ",
     author: "James Halbert",
     publishedAt: "FEBRUARY 22, 2026",
-    aiSummary: "Dynamics 365 breaks operational silos by unifying sales and service records. This creates a contiguous lifecycle where service agents can cross-sell and sales reps anticipate support issues.",
+    aiSummary: "Enterprise ERP breaks operational silos by unifying sales and service records. This creates a contiguous lifecycle where service agents can cross-sell and sales reps anticipate support issues.",
     content: `Sales and Service are not two separate departments; they are two phases of the exact same customer lifecycle. 
 
-When a salesperson pitches a renewal, they must know if there are three open critical support tickets. When a support agent resolves a complex issue, they should be able to trigger a high-probability cross-sell opportunity. Dynamics 365, built atop Dataverse, achieves this by enforcing a single relational definition of "The Customer."`,
+When a salesperson pitches a renewal, they must know if there are three open critical support tickets. When a support agent resolves a complex issue, they should be able to trigger a high-probability cross-sell opportunity. Enterprise ERP, built atop Cloud Databases, achieves this by enforcing a single relational definition of "The Customer."`,
     recommended: ["power_plat_gov", "ai_strategy_2026"]
   },
   {
     id: "azure_scale",
     title: "Serverless Resilience Patterns",
     excerpt: "Architecting cloud functions that handle unpredictable global load spikes seamlessly.",
-    category: "Azure",
+    category: "AWS / GCP / Azure",
     readTime: "11 MIN READ",
     author: "Dr. Elena Rostova",
     publishedAt: "MARCH 30, 2026",
     aiSummary: "Serverless auto-scaling requires careful state management. Use decentralized queues and stateless functions to prevent cascading failures during massive traffic spikes.",
-    content: `A system is only as scalable as its tightest bottleneck. You can have endless compute power via Azure Functions, but if they all connect to a single standard SQL instance, the database will throttle and crash the entire pipeline.
+    content: `A system is only as scalable as its tightest bottleneck. You can have endless compute power via Cloud Platforms Functions, but if they all connect to a single standard SQL instance, the database will throttle and crash the entire pipeline.
 
 Resilient cloud architecture requires buffer zones. Service Bus queues act as shock absorbers, taking in millions of requests per second and feeding them to backend processors at the exact maximum rate the persistence layer can handle.`,
     recommended: ["arch_foundations", "data_lake_sync"]
@@ -129,10 +129,10 @@ Resilient cloud architecture requires buffer zones. Service Bus queues act as sh
     readTime: "7 MIN READ",
     author: "Aisha Patel",
     publishedAt: "APRIL 14, 2026",
-    aiSummary: "Microsoft Fabric consolidates analytical storage. By separating compute from storage and utilizing a unified delta lake format, organizations eliminate redundant data copying.",
+    aiSummary: "Multi-Cloud Data Lakes consolidates analytical storage. By separating compute from storage and utilizing a unified delta lake format, organizations eliminate redundant data copying.",
     content: `For years, data engineering consisted of copying data from point A, transforming it at point B, and serving it at point C. This meant you paid for storage three times and accepted constant latency.
 
-By standardizing on open delta-parquet formats within a unified lakehouse, compute engines can query the exact same files simultaneously. A Power BI report reads the same physical storage sector as an Azure Machine Learning training run. Copying data is obsolete.`,
+By standardizing on open delta-parquet formats within a unified lakehouse, compute engines can query the exact same files simultaneously. A Power BI report reads the same physical storage sector as an Cloud Platforms Machine Learning training run. Copying data is obsolete.`,
     recommended: ["azure_scale", "ai_strategy_2026"]
   }
 ];

@@ -60,7 +60,7 @@ export default function TheSystem() {
           </h1>
           
           <p className="mx-auto max-w-2xl font-sans text-sm leading-relaxed text-gray-400 sm:text-base">
-            We build intelligent business systems using Microsoft Business Applications, Power Platform, Dynamics 365, Azure, AI, Enterprise Development, Data Platforms, and Cloud Architecture.
+            We build intelligent business systems using Microsoft Business Applications, Full-Stack Cloud, Enterprise ERP, Cloud Platforms, AI, Enterprise Development, Data Platforms, and Cloud Architecture.
           </p>
         </div>
       </div>

@@ -56,11 +56,11 @@ const LOCAL_INDUSTRY_SYSTEMS: IndustrySystem[] = [
     description: "Connected patient journeys, secure FHIR data compliance, and predictive clinical operations.",
     layers: {
       people: { title: "Patients & Care Teams", description: "Seamless coordination between patients, nurses, and specialists.", technologies: ["Patient Portal", "Clinician Mobile App"] },
-      process: { title: "Clinical Workflows", description: "Automated triage, appointment scheduling, and discharge routing.", technologies: ["Power Automate", "Healthcare Cloud"] },
-      applications: { title: "EMR Integrations", description: "Unified interfaces wrapping legacy Electronic Medical Records.", technologies: ["Power Apps", "Dynamics 365 Health"] },
-      data: { title: "FHIR Data Lake", description: "HIPAA-compliant, unified patient records and billing ledgers.", technologies: ["Dataverse", "Azure Health Data Services"] },
-      automation: { title: "Claim Processing", description: "Real-time insurance validation and automated claim submissions.", technologies: ["Azure Logic Apps", "RPA Bots"] },
-      ai: { title: "Predictive Diagnosis", description: "AI screening of medical imaging and predictive patient readmission scoring.", technologies: ["Azure Computer Vision", "Health Copilot"] }
+      process: { title: "Clinical Workflows", description: "Automated triage, appointment scheduling, and discharge routing.", technologies: ["Workflow Orchestration", "Healthcare Cloud"] },
+      applications: { title: "EMR Integrations", description: "Unified interfaces wrapping legacy Electronic Medical Records.", technologies: ["Custom Web Apps", "Enterprise ERP Health"] },
+      data: { title: "FHIR Data Lake", description: "HIPAA-compliant, unified patient records and billing ledgers.", technologies: ["Cloud Databases", "Cloud Platforms Health Data Services"] },
+      automation: { title: "Claim Processing", description: "Real-time insurance validation and automated claim submissions.", technologies: ["Cloud Platforms Logic Apps", "RPA Bots"] },
+      ai: { title: "Predictive Diagnosis", description: "AI screening of medical imaging and predictive patient readmission scoring.", technologies: ["Cloud Platforms Computer Vision", "Health Copilot"] }
     }
   },
   {
@@ -70,10 +70,10 @@ const LOCAL_INDUSTRY_SYSTEMS: IndustrySystem[] = [
     description: "Industry 4.0 integration, IoT sensor streams, and supply chain resiliency.",
     layers: {
       people: { title: "Floor Operators & Supply Managers", description: "Empowering frontline workers with mobile inventory scanning and safety alerts.", technologies: ["Rugged Tablets", "Teams Frontline"] },
-      process: { title: "Just-In-Time Assembly", description: "Streamlining parts requisition and line changeovers.", technologies: ["Dynamics 365 SCM", "Power Automate"] },
-      applications: { title: "Execution Systems", description: "Real-time production tracking and quality assurance control interfaces.", technologies: ["Power Apps Canvas", "Custom .NET Edge UI"] },
-      data: { title: "Telemetry Lakehouse", description: "High-throughput ingestion of machine telemetry and production logs.", technologies: ["Azure IoT Hub", "Fabric OneLake"] },
-      automation: { title: "Machine Intervention", description: "Automated line pausing when tolerance anomalies are detected.", technologies: ["Azure Event Grid", "Logic Apps"] },
+      process: { title: "Just-In-Time Assembly", description: "Streamlining parts requisition and line changeovers.", technologies: ["Enterprise ERP SCM", "Workflow Orchestration"] },
+      applications: { title: "Execution Systems", description: "Real-time production tracking and quality assurance control interfaces.", technologies: ["Custom Web Apps Canvas", "Custom .NET Edge UI"] },
+      data: { title: "Telemetry Lakehouse", description: "High-throughput ingestion of machine telemetry and production logs.", technologies: ["Cloud Platforms IoT Hub", "Fabric OneLake"] },
+      automation: { title: "Machine Intervention", description: "Automated line pausing when tolerance anomalies are detected.", technologies: ["Cloud Platforms Event Grid", "Logic Apps"] },
       ai: { title: "Predictive Maintenance", description: "Forecasting equipment failure dates before they halt production.", technologies: ["Machine Learning Models", "Digital Twins"] }
     }
   },
@@ -84,11 +84,11 @@ const LOCAL_INDUSTRY_SYSTEMS: IndustrySystem[] = [
     description: "Global logistics tracking, fleet optimization, and automated warehouse routing.",
     layers: {
       people: { title: "Fleet Drivers & Warehouse Staff", description: "Route optimization and hands-free inventory picking guidance.", technologies: ["Mobile Routing App", "Voice Pickers"] },
-      process: { title: "Fulfillment Routing", description: "Dynamic order orchestration from dock to delivery.", technologies: ["Dynamics 365 Logistics", "Custom Routing Engine"] },
-      applications: { title: "Fleet Command", description: "Centralized tracking map and order status portals.", technologies: ["Power Pages", "React Map Dashboard"] },
-      data: { title: "Supply Ledger", description: "Transactional recording of custody chains and inventory states.", technologies: ["Dataverse", "SQL Server"] },
-      automation: { title: "Automated Reordering", description: "Triggering vendor purchases instantly upon stock thresholds.", technologies: ["Power Automate API"] },
-      ai: { title: "Demand Forecasting", description: "Predicting seasonal inventory needs using macro-economic models.", technologies: ["Azure Synapse Analytics", "AI Forecaster"] }
+      process: { title: "Fulfillment Routing", description: "Dynamic order orchestration from dock to delivery.", technologies: ["Enterprise ERP Logistics", "Custom Routing Engine"] },
+      applications: { title: "Fleet Command", description: "Centralized tracking map and order status portals.", technologies: ["Next.js Portals", "React Map Dashboard"] },
+      data: { title: "Supply Ledger", description: "Transactional recording of custody chains and inventory states.", technologies: ["Cloud Databases", "SQL Server"] },
+      automation: { title: "Automated Reordering", description: "Triggering vendor purchases instantly upon stock thresholds.", technologies: ["Workflow Orchestration API"] },
+      ai: { title: "Demand Forecasting", description: "Predicting seasonal inventory needs using macro-economic models.", technologies: ["Cloud Platforms Synapse Analytics", "AI Forecaster"] }
     }
   },
   {
@@ -98,10 +98,10 @@ const LOCAL_INDUSTRY_SYSTEMS: IndustrySystem[] = [
     description: "Omnichannel customer experiences, dynamic pricing, and unified commerce.",
     layers: {
       people: { title: "Shoppers & Store Associates", description: "Personalized loyalty experiences and mobile point-of-sale support.", technologies: ["Consumer Mobile App", "POS Tablets"] },
-      process: { title: "Omnichannel Checkout", description: "Seamless transition from online cart to in-store pickup.", technologies: ["Dynamics 365 Commerce"] },
+      process: { title: "Omnichannel Checkout", description: "Seamless transition from online cart to in-store pickup.", technologies: ["Enterprise ERP Commerce"] },
       applications: { title: "Customer 360", description: "Unified application presenting complete buyer history to associates.", technologies: ["Model-Driven Apps", "Customer Insights"] },
-      data: { title: "Unified Profile Engine", description: "Aggregating online tracking, physical sales, and support tickets.", technologies: ["Azure Cosmos DB", "Dataverse"] },
-      automation: { title: "Dynamic Pricing", description: "Real-time price adjustments based on competitor APIs and stock levels.", technologies: ["Azure Functions", "API Management"] },
+      data: { title: "Unified Profile Engine", description: "Aggregating online tracking, physical sales, and support tickets.", technologies: ["Cloud Platforms Cosmos DB", "Cloud Databases"] },
+      automation: { title: "Dynamic Pricing", description: "Real-time price adjustments based on competitor APIs and stock levels.", technologies: ["Cloud Platforms Functions", "API Management"] },
       ai: { title: "Hyper-Personalization", description: "Tailored product recommendations and conversational shopping assistants.", technologies: ["Retail Copilot", "Personalizer AI"] }
     }
   },
@@ -112,11 +112,11 @@ const LOCAL_INDUSTRY_SYSTEMS: IndustrySystem[] = [
     description: "Secure transaction processing, algorithmic fraud detection, and regulatory compliance.",
     layers: {
       people: { title: "Clients & Wealth Advisors", description: "Secure portfolio monitoring and digital onboarding." , technologies: ["Client Portal", "Advisor CRM Desktop"] },
-      process: { title: "Loan Origination", description: "Automated KYC (Know Your Customer) and credit approval workflows.", technologies: ["Power Automate", "Dynamics 365 FinOps"] },
-      applications: { title: "Wealth Dashboard", description: "Aggregated financial visualizations and fast trade executions.", technologies: ["React Secure SPA", "Power Apps Portals"] },
-      data: { title: "Immutable Ledger", description: "High-encryption, zero-trust databases logging financial metadata.", technologies: ["Azure SQL Edge", "Purview Governance"] },
-      automation: { title: "Regulatory Reporting", description: "Compiling daily liquidity and compliance forms without manual intervention.", technologies: ["Azure Data Factory", "Logic Apps"] },
-      ai: { title: "Fraud Anomaly Engine", description: "Detecting micro-variations in spending patterns to block transactions instantly.", technologies: ["Azure Machine Learning", "Risk Copilot"] }
+      process: { title: "Loan Origination", description: "Automated KYC (Know Your Customer) and credit approval workflows.", technologies: ["Workflow Orchestration", "Enterprise ERP FinOps"] },
+      applications: { title: "Wealth Dashboard", description: "Aggregated financial visualizations and fast trade executions.", technologies: ["React Secure SPA", "Custom Web Apps Portals"] },
+      data: { title: "Immutable Ledger", description: "High-encryption, zero-trust databases logging financial metadata.", technologies: ["Cloud Platforms SQL Edge", "Purview Governance"] },
+      automation: { title: "Regulatory Reporting", description: "Compiling daily liquidity and compliance forms without manual intervention.", technologies: ["Cloud Platforms Data Factory", "Logic Apps"] },
+      ai: { title: "Fraud Anomaly Engine", description: "Detecting micro-variations in spending patterns to block transactions instantly.", technologies: ["Cloud Platforms Machine Learning", "Risk Copilot"] }
     }
   },
   {
@@ -126,11 +126,11 @@ const LOCAL_INDUSTRY_SYSTEMS: IndustrySystem[] = [
     description: "SaaS platform scaling, agile engineering operations, and subscriber management.",
     layers: {
       people: { title: "Developers & SaaS Users", description: "Self-service provisioning and unified identity management.", technologies: ["Developer Portal", "Entra ID"] },
-      process: { title: "Subscription Lifecycle", description: "Automated billing, usage throttling, and tier upgrading.", technologies: ["Azure API Mgmt", "Stripe Integration"] },
+      process: { title: "Subscription Lifecycle", description: "Automated billing, usage throttling, and tier upgrading.", technologies: ["Cloud Platforms API Mgmt", "Stripe Integration"] },
       applications: { title: "Product Interfaces", description: "The core digital products delivered to global end-users.", technologies: ["React Frontends", ".NET Core Microservices"] },
-      data: { title: "Global Multi-Tenant Store", description: "Geographically distributed, partitioned databases for low-latency access.", technologies: ["Azure Cosmos DB", "Redis Cache"] },
-      automation: { title: "CI/CD Infrastructure", description: "Automatic scaling, load balancing, and code deployment routines.", technologies: ["GitHub Actions", "Azure Kubernetes Service"] },
-      ai: { title: "Generative Product Features", description: "Embedded large language models acting as features inside the SaaS offering.", technologies: ["Azure OpenAI Service", "Vector Search"] }
+      data: { title: "Global Multi-Tenant Store", description: "Geographically distributed, partitioned databases for low-latency access.", technologies: ["Cloud Platforms Cosmos DB", "Redis Cache"] },
+      automation: { title: "CI/CD Infrastructure", description: "Automatic scaling, load balancing, and code deployment routines.", technologies: ["GitHub Actions", "Cloud Platforms Kubernetes Service"] },
+      ai: { title: "Generative Product Features", description: "Embedded large language models acting as features inside the SaaS offering.", technologies: ["AI Foundation Models Service", "Vector Search"] }
     }
   }
 ];

@@ -44,21 +44,21 @@ const TECH_CATEGORIES: TechCategory[] = [
     technologies: [
       {
         id: "power-apps",
-        name: "Power Apps",
+        name: "Custom Web Apps",
         purpose: "Rapid app assembly of collaborative internal dashboards.",
         businessValue: "Reduces time-to-market for internal tools and eliminates shadow IT spread.",
         useCases: ["Field service data collection", "Internal approval dashboards", "Inventory scanning apps"]
       },
       {
         id: "dynamics-365",
-        name: "Dynamics 365",
+        name: "Enterprise ERP",
         purpose: "Industry-standard business capabilities tuned automatically to operations.",
         businessValue: "Unifies CRM and ERP operations into a single cohesive, trackable platform.",
         useCases: ["Global sales tracking pipelines", "Omnichannel customer service routing", "Supply chain and ledger management"]
       },
       {
         id: "power-pages",
-        name: "Power Pages",
+        name: "Next.js Portals",
         purpose: "Enterprise external portals connected directly to core databases.",
         businessValue: "Safely exposes core operations to customers without duplicating or syncing data.",
         useCases: ["Customer support portals", "Partner registration sites", "Citizen licensing gateways"]
@@ -67,7 +67,7 @@ const TECH_CATEGORIES: TechCategory[] = [
         id: "model-driven",
         name: "Model Driven Apps",
         purpose: "Data-first applications structured directly around complex relational schemas.",
-        businessValue: "Auto-generates robust UIs directly from Dataverse schemas, saving thousands of development hours.",
+        businessValue: "Auto-generates robust UIs directly from Cloud Databases schemas, saving thousands of development hours.",
         useCases: ["Case management systems", "Complex HR onboarding", "Compliance tracking ledgers"]
       }
     ]
@@ -110,7 +110,7 @@ const TECH_CATEGORIES: TechCategory[] = [
         id: "dotnet",
         name: ".NET",
         purpose: "Compiled, secure server pipelines and legacy API adaptors.",
-        businessValue: "Native, seamless integration with Azure and the Microsoft enterprise ecosystem.",
+        businessValue: "Native, seamless integration with Cloud Platforms and the Microsoft enterprise ecosystem.",
         useCases: ["Legacy Windows server migrations", "High-performance API gateways", "Cross-platform cloud background services"]
       },
       {
@@ -130,14 +130,14 @@ const TECH_CATEGORIES: TechCategory[] = [
     technologies: [
       {
         id: "azure",
-        name: "Azure",
+        name: "AWS / GCP / Azure",
         purpose: "Global cloud computing platform and hybrid infrastructure.",
         businessValue: "Provides on-demand scalability, zero-trust security perimeters, and high global availability.",
-        useCases: ["Cloud web hosting", "Virtual machine provisioning", "Active Directory integrated identity"]
+        useCases: ["Cloud web hosting", "Virtual machine provisioning", "Active Directory integrated identity", "Global edge caching deployed on multi-cloud"]
       },
       {
         id: "azure-functions",
-        name: "Azure Functions",
+        name: "Cloud Functions / Lambda",
         purpose: "Serverless compute service that runs code on-demand.",
         businessValue: "Drives down operational costs by scaling to zero and billing only upon active execution.",
         useCases: ["Event-driven webhooks", "Scheduled nightly batch jobs", "IoT stream ingestion processors"]
@@ -166,10 +166,10 @@ const TECH_CATEGORIES: TechCategory[] = [
     technologies: [
       {
         id: "dataverse",
-        name: "Dataverse",
+        name: "Cloud Databases",
         purpose: "Cloud relational data foundation with built-in governance logic.",
         businessValue: "Centralizes logic and security policies so all connecting applications inherit the exact same rules.",
-        useCases: ["Centralized master data management", "Dynamics 365 underlying storage", "Rapid Power App logic generation"]
+        useCases: ["Centralized master data management", "Enterprise ERP underlying storage", "Rapid Power App logic generation"]
       },
       {
         id: "sql-server",
@@ -202,14 +202,14 @@ const TECH_CATEGORIES: TechCategory[] = [
     technologies: [
       {
         id: "azure-openai",
-        name: "Azure OpenAI",
+        name: "AI Foundation Models",
         purpose: "Isolated, secure instances of cutting-edge LLMs.",
         businessValue: "Keeps proprietary prompts and enterprise data strictly private while leveraging top-tier models.",
         useCases: ["Internal semantic search arrays", "Automated contract parsing", "Contextual code generation"]
       },
       {
         id: "copilot-studio",
-        name: "Copilot Studio",
+        name: "Custom AI Agents",
         purpose: "End-to-end platform for building custom conversational agents.",
         businessValue: "Democratizes AI bot creation with clear graphical dialog flows and integrated system governance.",
         useCases: ["Employee HR assistance bots", "Customer-facing triage virtual agents", "Dynamics embedded co-pilots"]
@@ -231,7 +231,7 @@ const TECH_CATEGORIES: TechCategory[] = [
     technologies: [
       {
         id: "azure-devops",
-        name: "Azure DevOps",
+        name: "Cloud Platforms DevOps",
         purpose: "Full suite of developer planning tools, CI/CD pipelines, and artifact repos.",
         businessValue: "Standardizes the delivery lifecycle ensuring compliant, traceable, and revertable releases.",
         useCases: ["Automated environment staging", "Agile sprint portfolio tracking", "Secure package artifact hosting"]

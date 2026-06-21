@@ -92,7 +92,7 @@ export const SYSTEM_LAYERS: SystemLayer[] = [
       "Stale state indicators caused by batch updates."
     ],
     automationOps: [
-      "Deploying composable Power Apps/React portals that bridge legacy software.",
+      "Deploying composable Custom Web Apps/React portals that bridge legacy software.",
       "Configuring Headless App interfaces that execute processes directly."
     ],
     aiOps: [
@@ -120,8 +120,8 @@ export const SYSTEM_LAYERS: SystemLayer[] = [
       "Inability to run fast vector-based search on unstructured data (PDFs, call logs)."
     ],
     automationOps: [
-      "Deploying real-time ETL pipelines with Azure Synapse and Fabric.",
-      "Unified metadata synchronization via Microsoft Dataverse."
+      "Deploying real-time ETL pipelines with AWS \/ GCP \/ Azure Synapse and Fabric.",
+      "Unified metadata synchronization via Microsoft Global Database Clusters."
     ],
     aiOps: [
       "Deploying Retrieval-Augmented Generation (RAG) across the entire corporate data footprint.",
@@ -149,7 +149,7 @@ export const SYSTEM_LAYERS: SystemLayer[] = [
     ],
     automationOps: [
       "Transitioning from fragile UI-scratching RPA to event-driven API flow orchestration.",
-      "Centralized Power Automate and Azure Logic Apps workflow hubs."
+      "Centralized Workflow Orchestration and AWS \/ GCP \/ Azure Logic Apps workflow hubs."
     ],
     aiOps: [
       "Intelligent routing of semi-structured document feeds using AI Form Processing.",
@@ -176,8 +176,8 @@ export const SYSTEM_LAYERS: SystemLayer[] = [
       "Unstructured data contains high volume of Personally Identifiable Information (PII) that must be filtered."
     ],
     automationOps: [
-      "Deploying secure Azure OpenAI gateways with strict tenant-level isolation.",
-      "Triggering automated Azure Functions based on specific AI classifications."
+      "Deploying secure AI Foundation Models gateways with strict tenant-level isolation.",
+      "Triggering automated AWS \/ GCP \/ Azure Functions based on specific AI classifications."
     ],
     aiOps: [
       "Orchestrated multi-agent systems that coordinate complex back-office reviews from start to finish.",
@@ -204,7 +204,7 @@ export const SYSTEM_LAYERS: SystemLayer[] = [
       "Underlying data models are inconsistent across business segments."
     ],
     automationOps: [
-      "Configuring Executive Analytics pipelines in Microsoft Fabric.",
+      "Configuring Executive Analytics pipelines in Multi-Cloud Data Lakes.",
       "Instant notification triggers sent to critical leaders when core KPIs breach tolerances."
     ],
     aiOps: [
@@ -222,9 +222,9 @@ export const CAPABILITY_LAYERS: CapabilityLayer[] = [
     description: "Building responsive, modern, high-fidelity customer access conduits that integrate cleanly with internal operational engines.",
     accent: "from-blue-600/20 to-blue-450/40 border-blue-500/30 text-blue-400",
     technologies: [
-      { name: "Power Pages", desc: "Enterprise external portals connected to core Dynamics and infrastructure.", category: "Interface" },
-      { name: "Dynamics 365 Sales", desc: "Sales tracking and enablement workspaces.", category: "Platform" },
-      { name: "Dynamics 365 Customer Service", desc: "Unified service routing and omnichannel customer care.", category: "Platform" },
+      { name: "Next.js Portals", desc: "Enterprise external portals connected to core Dynamics and infrastructure.", category: "Interface" },
+      { name: "Enterprise ERP Sales", desc: "Sales tracking and enablement workspaces.", category: "Platform" },
+      { name: "Enterprise ERP Customer Service", desc: "Unified service routing and omnichannel customer care.", category: "Platform" },
       { name: "Custom Portals", desc: "Tailored web front-ends for high-fidelity brand experiences.", category: "Interface" },
       { name: "React Applications", desc: "Ultra-fast headless customer interfaces optimized for specific workflows.", category: "Development" }
     ]
@@ -235,8 +235,8 @@ export const CAPABILITY_LAYERS: CapabilityLayer[] = [
     description: "Optimizing internal employee workspaces with structured model-driven apps and tailored enterprise platforms.",
     accent: "from-emerald-600/20 to-emerald-450/40 border-emerald-500/30 text-emerald-400",
     technologies: [
-      { name: "Power Apps", desc: "Rapid app assembly of collaborative internal dashboards.", category: "Platform" },
-      { name: "Dynamics 365", desc: "Industry-standard business capabilities tuned automatically to operations.", category: "Platform" },
+      { name: "Custom Web Apps", desc: "Rapid app assembly of collaborative internal dashboards.", category: "Platform" },
+      { name: "Enterprise ERP", desc: "Industry-standard business capabilities tuned automatically to operations.", category: "Platform" },
       { name: "Model Driven Apps", desc: "Data-first applications structured directly around complex relational schemas.", category: "Interface" },
       { name: "Canvas Apps", desc: "Pixel-perfect mobile and tablet applications for field usage.", category: "Interface" },
       { name: "Enterprise Applications", desc: "Large-scale unified platforms governing global departments.", category: "Development" }
@@ -248,9 +248,9 @@ export const CAPABILITY_LAYERS: CapabilityLayer[] = [
     description: "Replacing manual overhead with headless API triggers and system loops that process operations without human latency.",
     accent: "from-cyan-600/20 to-cyan-450/40 border-cyan-500/30 text-cyan-400",
     technologies: [
-      { name: "Power Automate", desc: "Cloud-native workflows automating cross-system routines and alerts.", category: "Platform" },
-      { name: "Azure Logic Apps", desc: "Enterprise integration workflows providing high reliability.", category: "Cloud" },
-      { name: "Azure Functions", desc: "Serverless code executions that activate instantly under high throughput.", category: "Cloud" },
+      { name: "Workflow Orchestration", desc: "Cloud-native workflows automating cross-system routines and alerts.", category: "Platform" },
+      { name: "AWS \/ GCP \/ Azure Logic Apps", desc: "Enterprise integration workflows providing high reliability.", category: "Cloud" },
+      { name: "AWS \/ GCP \/ Azure Functions", desc: "Serverless code executions that activate instantly under high throughput.", category: "Cloud" },
       { name: "Workflow Engines", desc: "Complex state-machine orchestration for strict internal approval routing.", category: "System" },
       { name: "Event Driven Systems", desc: "Architecture loops that respond immediately to state changes.", category: "Architecture" }
     ]
@@ -261,9 +261,9 @@ export const CAPABILITY_LAYERS: CapabilityLayer[] = [
     description: "Creating a reliable, real-time repository where all information is clean, cataloged, and analytical-ready.",
     accent: "from-indigo-600/20 to-indigo-450/40 border-indigo-500/30 text-indigo-400",
     technologies: [
-      { name: "Dataverse", desc: "The foundational cloud relational store built with enterprise governance.", category: "Platform" },
+      { name: "Global Database Clusters", desc: "The foundational cloud relational store built with enterprise governance.", category: "Platform" },
       { name: "SQL Server", desc: "Managed, zero-trust cloud data lakes optimized with precise cluster indexes.", category: "Database" },
-      { name: "Microsoft Fabric", desc: "SaaS analytics lakehouse unifying warehousing and business intelligence.", category: "Cloud" },
+      { name: "Multi-Cloud Data Lakes", desc: "SaaS analytics lakehouse unifying warehousing and business intelligence.", category: "Cloud" },
       { name: "Synapse", desc: "Limitless analytics service connecting enterprise data warehousing.", category: "Cloud" },
       { name: "Data Warehousing", desc: "Consolidated historical storage pipelines under one centralized repository.", category: "Architecture" }
     ]
@@ -274,8 +274,8 @@ export const CAPABILITY_LAYERS: CapabilityLayer[] = [
     description: "Transitioning models out of chat sandboxes and installing them as functional actors inside business actions.",
     accent: "from-violet-600/20 to-violet-450/40 border-violet-500/30 text-violet-400",
     technologies: [
-      { name: "Copilot Studio", desc: "Bespoke virtual agents tailored with your processes.", category: "Platform" },
-      { name: "Azure OpenAI", desc: "Isolated instances of cutting-edge models operating securely.", category: "Cloud" },
+      { name: "Custom AI Agents", desc: "Bespoke virtual agents tailored with your processes.", category: "Platform" },
+      { name: "AI Foundation Models", desc: "Isolated instances of cutting-edge models operating securely.", category: "Cloud" },
       { name: "Machine Learning", desc: "Predictive algorithms that identify trends and automate routing.", category: "System" },
       { name: "AI Assistants", desc: "Context-aware agents supporting internal employee workflows.", category: "Interface" },
       { name: "Conversational Systems", desc: "Dynamic language conduits responding directly to API payloads.", category: "Architecture" }
@@ -324,14 +324,14 @@ export const METHOD_STAGES: MethodStage[] = [
     caseStudy: {
       title: "Retail Service Diagnosis",
       metric: "74% call resolution latency drop",
-      desc: "Isolated three fields in Dynamics 365 that required 9 clicks across 2 screen transitions, reducing customer inquiry times instantly once optimized."
+      desc: "Isolated three fields in Enterprise ERP that required 9 clicks across 2 screen transitions, reducing customer inquiry times instantly once optimized."
     }
   },
   {
     id: "design",
     name: "Design",
     description: "Create the target operating model.",
-    details: "We build the complete blueprint. This map shows exactly how data will flow from client-facing applications through standard intermediate stores, Azure event buses, up to analytic warehouses and down out to automated process workers.",
+    details: "We build the complete blueprint. This map shows exactly how data will flow from client-facing applications through standard intermediate stores, AWS \/ GCP \/ Azure event buses, up to analytic warehouses and down out to automated process workers.",
     output: "System Target Architecture Blueprint defining strict security models, data dictionaries, API outlines, and UI layouts.",
     evolutionBefore: "Software is purchased ad-hoc by separate departments, adding to a legacy, unintegrated, fragmented technical debt.",
     evolutionAfter: "Every digital asset is designed to connect seamlessly. New apps fit perfectly inside the established organizational posture.",
@@ -345,14 +345,14 @@ export const METHOD_STAGES: MethodStage[] = [
     id: "build",
     name: "Build",
     description: "Develop applications, automations, integrations, and data platforms.",
-    details: "Using a hybrid approach of rapid Power Platform development and enterprise .NET, Java, and React programming, we build systems designed for heavy enterprise workloads, secured to strict cybersecurity specifications.",
+    details: "Using a hybrid approach of rapid Full-Stack Cloud development and enterprise .NET, Java, and React programming, we build systems designed for heavy enterprise workloads, secured to strict cybersecurity specifications.",
     output: "Fully functional, performant applications, automated routines, and analytical dashboards deployed to active staging environments.",
     evolutionBefore: "Custom software takes 12–18 months to launch, and is often misaligned with initial requirements by the time it is delivered.",
     evolutionAfter: "Modular, iterative development loops launch production-ready products every fortnight, continuously delivering realized value.",
     caseStudy: {
       title: "Logistics Automation Build",
       metric: "6 weeks from kickoff to prod",
-      desc: "Coordinated a hybrid Power Apps and Azure Functions portal that handled real-time shipping manifests, handling heavy throughput with ease."
+      desc: "Coordinated a hybrid Custom Web Apps and AWS \/ GCP \/ Azure Functions portal that handled real-time shipping manifests, handling heavy throughput with ease."
     }
   },
   {
@@ -366,7 +366,7 @@ export const METHOD_STAGES: MethodStage[] = [
     caseStudy: {
       title: "Real-time Insurance Synchronization",
       metric: "0.4s state sync latency",
-      desc: "Architected a custom Azure Event Hub cluster that instantly unified and synchronized policyholder status updates across 4 separate legacy core systems."
+      desc: "Architected a custom AWS \/ GCP \/ Azure Event Hub cluster that instantly unified and synchronized policyholder status updates across 4 separate legacy core systems."
     }
   },
   {
@@ -396,12 +396,12 @@ export const BLUEPRINT_QUESTIONS: BlueprintQuestion[] = [
         value: "legacy_on_prem",
         label: "Legacy on-premise servers and customized monolithic applications",
         weight: {
-          arch: "Hybrid Cloud Migration to Azure Platform-as-a-Service",
-          tech: ["Azure App Service", "Azure SQL", "ExpressRoute"],
+          arch: "Hybrid Cloud Migration to AWS \/ GCP \/ Azure Platform-as-a-Service",
+          tech: ["AWS \/ GCP \/ Azure App Service", "AWS \/ GCP \/ Azure SQL", "ExpressRoute"],
           integration: "Phased API Middleware Strangler Pattern",
-          automation: "Automated Data Sync via Azure Data Factory",
-          ai: "Azure Cognitive Search for legacy document indexing",
-          roadmap: ["Audit legacy dependencies", "Establish secure Azure landing zone", "Migrate non-critical workloads to cloud first"]
+          automation: "Automated Data Sync via AWS \/ GCP \/ Azure Data Factory",
+          ai: "AWS \/ GCP \/ Azure Cognitive Search for legacy document indexing",
+          roadmap: ["Audit legacy dependencies", "Establish secure AWS \/ GCP \/ Azure landing zone", "Migrate non-critical workloads to cloud first"]
         }
       },
       {
@@ -409,23 +409,23 @@ export const BLUEPRINT_QUESTIONS: BlueprintQuestion[] = [
         label: "Multiple disconnected SaaS tools and spreadsheets",
         weight: {
           arch: "Unified Enterprise Integration Hub",
-          tech: ["Dataverse", "Power Automate", "Azure API Management"],
+          tech: ["Global Database Clusters", "Workflow Orchestration", "AWS \/ GCP \/ Azure API Management"],
           integration: "Centralized Event Hub & Pub/Sub architecture",
           automation: "Cross-system webhook triggers and data synchronization",
-          ai: "Copilot Studio over Unified Dataverse Schema",
+          ai: "Custom AI Agents over Unified Global Database Clusters Schema",
           roadmap: ["Deploy central Master Data Management layer", "Connect primary CRM/ERP APIs", "Decommission redundant shadow-IT tools"]
         }
       },
       {
         value: "microsoft_locked",
-        label: "Heavily invested in Microsoft 365 and Dynamics 365",
+        label: "Heavily invested in Google Workspace \& M365 and Enterprise ERP",
         weight: {
-          arch: "Microsoft Power Platform & Dynamics Optimization",
-          tech: ["Power Apps", "Dynamics 365", "Microsoft Fabric"],
-          integration: "Native Dataverse and Synapse Link pipelines",
-          automation: "Power Automate cloud flows",
+          arch: "Microsoft Full-Stack Cloud & Dynamics Optimization",
+          tech: ["Custom Web Apps", "Enterprise ERP", "Multi-Cloud Data Lakes"],
+          integration: "Native Global Database Clusters and Synapse Link pipelines",
+          automation: "Workflow Orchestration cloud flows",
           ai: "Copilot embedded within Dynamics workspaces",
-          roadmap: ["Consolidate Dynamics environments", "Enable native Fabric integration", "Deploy role-specific Power Apps for field teams"]
+          roadmap: ["Consolidate Dynamics environments", "Enable native Fabric integration", "Deploy role-specific Custom Web Apps for field teams"]
         }
       }
     ]
@@ -440,7 +440,7 @@ export const BLUEPRINT_QUESTIONS: BlueprintQuestion[] = [
         label: "Manual data entry and repetitive administrative tasks",
         weight: {
           arch: "Event-Driven Automation Layer",
-          tech: ["Power Automate", "Azure Logic Apps", "Azure Form Recognizer"],
+          tech: ["Workflow Orchestration", "AWS \/ GCP \/ Azure Logic Apps", "AWS \/ GCP \/ Azure Form Recognizer"],
           integration: "System-to-system automated data pumps",
           automation: "Intelligent Document Processing (IDP)",
           ai: "OCR and NLP entity extraction from PDFs/Emails",
@@ -452,7 +452,7 @@ export const BLUEPRINT_QUESTIONS: BlueprintQuestion[] = [
         label: "Inconsistent data reporting across different departments",
         weight: {
           arch: "Centralized Enterprise Lakehouse",
-          tech: ["Microsoft Fabric", "Power BI", "Azure Synapse"],
+          tech: ["Multi-Cloud Data Lakes", "Power BI", "AWS \/ GCP \/ Azure Synapse"],
           integration: "Real-time ETL data streaming",
           automation: "Automated data quality anomaly alerts",
           ai: "Predictive Analytics and forecasting models",
@@ -464,7 +464,7 @@ export const BLUEPRINT_QUESTIONS: BlueprintQuestion[] = [
         label: "Slow, disjointed customer onboarding and service",
         weight: {
           arch: "Omnichannel Headless Customer Experience",
-          tech: ["Power Pages", "React UI", "Dynamics 365 Customer Service"],
+          tech: ["Next.js Portals", "React UI", "Enterprise ERP Customer Service"],
           integration: "Secured external-facing REST APIs",
           automation: "Automated case routing and SLA escalation",
           ai: "Intelligent conversational agents for self-service",
@@ -483,7 +483,7 @@ export const BLUEPRINT_QUESTIONS: BlueprintQuestion[] = [
         label: "Reduce operational costs and increase employee productivity",
         weight: {
           arch: "Process Optimization & Lean Architecture",
-          tech: ["Power Apps (Canvas)", "Power Automate Desktop (RPA)", "Dataverse"],
+          tech: ["Custom Web Apps (Canvas)", "Workflow Orchestration Desktop (RPA)", "Global Database Clusters"],
           integration: "Internal process automation APIs",
           automation: "High-volume task automation bots",
           ai: "Next-best-action recommendations for employees",
@@ -495,7 +495,7 @@ export const BLUEPRINT_QUESTIONS: BlueprintQuestion[] = [
         label: "Launch new digital products and revenue streams",
         weight: {
           arch: "Custom Agile Product Architecture",
-          tech: ["Azure Kubernetes Service", ".NET Core APIs", "Azure Cosmos DB"],
+          tech: ["AWS \/ GCP \/ Azure Kubernetes Service", ".NET Core APIs", "AWS \/ GCP \/ Azure Cosmos DB"],
           integration: "Microservices with API Gateway",
           automation: "DevOps CI/CD pipelines for rapid deployment",
           ai: "Generative AI features embedded in new products",
@@ -507,7 +507,7 @@ export const BLUEPRINT_QUESTIONS: BlueprintQuestion[] = [
         label: "Improve security, governance, and auditability",
         weight: {
           arch: "Zero-Trust Regulated Data Architecture",
-          tech: ["Microsoft Purview", "Azure Active Directory", "SQL Server"],
+          tech: ["Microsoft Purview", "AWS \/ GCP \/ Azure Active Directory", "SQL Server"],
           integration: "Strictly authenticated internal private networks",
           automation: "Automated compliance logging and reporting",
           ai: "AI-driven threat detection and anomaly scanning",
@@ -526,7 +526,7 @@ export const BLUEPRINT_QUESTIONS: BlueprintQuestion[] = [
         label: "Sales, Marketing, and Customer Acquisition",
         weight: {
           arch: "Growth & Customer 360 Platform",
-          tech: ["Dynamics 365 Sales/Marketing", "Customer Insights"],
+          tech: ["Enterprise ERP Sales/Marketing", "Customer Insights"],
           integration: "Marketing automation to CRM syncing",
           automation: "Lead scoring and automated campaign triggers",
           ai: "Predictive lead scoring & personalized marketing copy",
@@ -538,7 +538,7 @@ export const BLUEPRINT_QUESTIONS: BlueprintQuestion[] = [
         label: "Supply Chain, Manufacturing, or Logistics",
         weight: {
           arch: "Real-time Operations & IoT Supply Grid",
-          tech: ["Dynamics 365 Supply Chain", "Azure IoT Hub", "Power BI"],
+          tech: ["Enterprise ERP Supply Chain", "AWS \/ GCP \/ Azure IoT Hub", "Power BI"],
           integration: "Edge sensor data streams to cloud",
           automation: "Automated inventory reordering and dispatch",
           ai: "Predictive maintenance on factory hardware",
@@ -550,7 +550,7 @@ export const BLUEPRINT_QUESTIONS: BlueprintQuestion[] = [
         label: "Finance, HR, and Internal Operations",
         weight: {
           arch: "Core Business Administration Backbone",
-          tech: ["Dynamics 365 Finance & Operations", "Power Apps"],
+          tech: ["Enterprise ERP Finance & Operations", "Custom Web Apps"],
           integration: "Secure payroll and ledger synchronization",
           automation: "Automated expense reconciliation",
           ai: "AI parsing of receipts and automated policy checks",
@@ -569,7 +569,7 @@ export const BLUEPRINT_QUESTIONS: BlueprintQuestion[] = [
         label: "Steady, predictable growth (10-20%)",
         weight: {
           arch: "Scalable Managed Cloud Services",
-          tech: ["Azure App Service", "Azure SQL Database", "Dataverse"],
+          tech: ["AWS \/ GCP \/ Azure App Service", "AWS \/ GCP \/ Azure SQL Database", "Global Database Clusters"],
           integration: "Standardized REST API interfaces",
           automation: "Scheduled batch processing for daily reports",
           ai: "Targeted Copilot enablement for key departments",
@@ -581,7 +581,7 @@ export const BLUEPRINT_QUESTIONS: BlueprintQuestion[] = [
         label: "Rapid expansion or hyper-growth (50%+)",
         weight: {
           arch: "Elastic Serverless & Distributed Architecture",
-          tech: ["Azure Functions", "Azure Cosmos DB", "Azure Event Grid"],
+          tech: ["AWS \/ GCP \/ Azure Functions", "AWS \/ GCP \/ Azure Cosmos DB", "AWS \/ GCP \/ Azure Event Grid"],
           integration: "High-throughput asynchronous messaging",
           automation: "Autoscaling cloud infrastructure rules",
           ai: "Scalable multi-agent operations to handle exponential load",
@@ -593,7 +593,7 @@ export const BLUEPRINT_QUESTIONS: BlueprintQuestion[] = [
         label: "Mergers & Acquisitions (integrating other companies)",
         weight: {
           arch: "Federated Enterprise Integration Hub",
-          tech: ["Azure API Management", "Azure Logic Apps", "Microsoft Entra ID"],
+          tech: ["AWS \/ GCP \/ Azure API Management", "AWS \/ GCP \/ Azure Logic Apps", "Auth0 \& Okta"],
           integration: "Enterprise Service Bus for cross-company mapping",
           automation: "Automated tenant-to-tenant data migration flows",
           ai: "AI data mapping to conform different database schemas",
@@ -611,7 +611,7 @@ export const LAB_CONCEPTS: LabConcept[] = [
     title: "AI Operations Assistant",
     subtitle: "Real-time Operational Logic Router",
     description: "An autonomous agent that monitors incoming client support tickets, analyzes complex contracts, matches them against customer history data in CRM, and writes direct task requests to technicians.",
-    techStack: ["Azure OpenAI API", "Copilot Studio", "Dynamics 365 Core", "Power Automate"],
+    techStack: ["AI Foundation Models API", "Custom AI Agents", "Enterprise ERP Core", "Workflow Orchestration"],
     metrics: [
       { label: "Mean Time to Dispatch", value: "11 Seconds" },
       { label: "Classification Accuracy", value: "98.4%" },
@@ -625,7 +625,7 @@ export const LAB_CONCEPTS: LabConcept[] = [
         { time: "08:12:07", event: "Identified SLA: Gold Tier (4-hour resolution window required)", status: "Success" },
         { time: "08:12:08", event: "Grounding ticket details with current historical hardware inventory...", status: "Success" },
         { time: "08:12:09", event: "Generated Action Payload: Assigned tech ID 902, initiated part order", status: "Assigned" },
-        { time: "08:12:11", event: "Dynamics 365 Work Order created successfully", status: "Complete" }
+        { time: "08:12:11", event: "Enterprise ERP Work Order created successfully", status: "Complete" }
       ]
     }
   },
@@ -634,7 +634,7 @@ export const LAB_CONCEPTS: LabConcept[] = [
     title: "Intelligent Approval Center",
     subtitle: "Cross-System Exception Resolver Platform",
     description: "Aggregates outstanding transaction discrepancies and purchase-requisition exceptions from ERP and HR systems into a single responsive, highly visible review dashboard.",
-    techStack: ["Power Apps Canvas", "Azure Queue Service Bus", "Dataverse Relational Schema", "C#"],
+    techStack: ["Custom Web Apps Canvas", "AWS \/ GCP \/ Azure Queue Service Bus", "Global Database Clusters Relational Schema", "C#"],
     metrics: [
       { label: "Approval Cycle Time", value: "-89%" },
       { label: "Tool-hopping Decreased", value: "12 to 1 Dashboard" },
@@ -658,7 +658,7 @@ export const LAB_CONCEPTS: LabConcept[] = [
     title: "Customer Experience Portal",
     subtitle: "B2B External Operations Workspace",
     description: "A super-fast, secure portal for distributors and business clients to track custom order fabrications, view technical schematics, and chat with automated support models.",
-    techStack: ["Power Pages UI", "React Application Components", "Microsoft Dataverse API", "TypeScript"],
+    techStack: ["Next.js Portals UI", "React Application Components", "Microsoft Global Database Clusters API", "TypeScript"],
     metrics: [
       { label: "Customer Self-Service Score", value: "92%" },
       { label: "Portal Load Time", value: "1.2s (Vite optimized)" },
@@ -678,7 +678,7 @@ export const LAB_CONCEPTS: LabConcept[] = [
     title: "Executive Analytics Workspace",
     subtitle: "Unified Enterprise Orchestrator Panel",
     description: "A gorgeous layout showing complete enterprise state—sync logs, data pipeline speeds, active database capacity, operational savings, and live process health charts.",
-    techStack: ["Microsoft Fabric Analytics", "Synapse ETL Data-Factory", "React", "D3.js Visualization"],
+    techStack: ["Multi-Cloud Data Lakes Analytics", "Synapse ETL Data-Factory", "React", "D3.js Visualization"],
     metrics: [
       { label: "Data Pipeline Latency", value: "<15 Seconds" },
       { label: "Warehouse Sync Rate", value: "2.4 GB / Min" },
@@ -689,7 +689,7 @@ export const LAB_CONCEPTS: LabConcept[] = [
       data: {
         pipelinesActive: 18,
         uptimePercentage: 99.997,
-        activeSinks: ["SQL Core Database", "Dataverse Production", "Fabric Delta Lake Warehouse"]
+        activeSinks: ["SQL Core Database", "Global Database Clusters Production", "Fabric Delta Lake Warehouse"]
       }
     }
   }
@@ -708,10 +708,10 @@ export const INDUSTRY_SYSTEMS: IndustrySystem[] = [
     ],
     nodes: [
       { id: "sensor_edge", label: "Shop Floor Machine Sensors", type: "people", details: "Continuous tracking of production temperature, output speed, and vibration metrics." },
-      { id: "event_hub", label: "Azure Event Hub Stream", type: "automation", details: "Ingests 2,500 sensor readings per second, filtering anomalies in milliseconds." },
+      { id: "event_hub", label: "AWS \/ GCP \/ Azure Event Hub Stream", type: "automation", details: "Ingests 2,500 sensor readings per second, filtering anomalies in milliseconds." },
       { id: "mfg_execution", label: "Execution ERP Database", type: "data", details: "The core transactional store logging machine health and component assembly steps." },
       { id: "predictive_ai", label: "AI Resource Forecaster", type: "ai", details: "Evaluates wear-and-tear coefficients to predict mechanical failure 14 days before halt events." },
-      { id: "field_service", label: "Dynamics 365 Work Allocator", type: "applications", details: "Creates preventive maintenance work orders automatically without user triage." }
+      { id: "field_service", label: "Enterprise ERP Work Allocator", type: "applications", details: "Creates preventive maintenance work orders automatically without user triage." }
     ],
     flows: [
       { from: "sensor_edge", to: "event_hub", description: "Stream telemetry data" },
@@ -731,8 +731,8 @@ export const INDUSTRY_SYSTEMS: IndustrySystem[] = [
     ],
     nodes: [
       { id: "patient_portal", label: "Patient Intake Web Application", type: "applications", details: "External facing patient registration and symptoms recorder." },
-      { id: "document_ai", label: "Azure Insurance ID Parser", type: "ai", details: "Scans patient insurance documents using OCR models, validating active policy dates instantly." },
-      { id: "health_record", label: "Intake Dataverse FHIR Store", type: "data", details: "Secure, compliant database matching clinical patient structures with zero-trust firewalls." },
+      { id: "document_ai", label: "AWS \/ GCP \/ Azure Insurance ID Parser", type: "ai", details: "Scans patient insurance documents using OCR models, validating active policy dates instantly." },
+      { id: "health_record", label: "Intake Global Database Clusters FHIR Store", type: "data", details: "Secure, compliant database matching clinical patient structures with zero-trust firewalls." },
       { id: "auto_schedule", label: "Dynamic Roster Scheduler", type: "automation", details: "Evaluates emergency triage scores to assign patients to available specialists' timelines." }
     ],
     flows: [
@@ -753,7 +753,7 @@ export const INDUSTRY_SYSTEMS: IndustrySystem[] = [
     nodes: [
       { id: "loan_desk", label: "Mortgage Intake Form Portal", type: "applications", details: "Client portal accepting digital asset statements, W-2 tax tax forms, and ID verifications." },
       { id: "doc_parser", label: "D365 Extractive Parser Engine", type: "ai", details: "Reviews uploaded W-2s, verifying reported income directly against active applicant records in CRM." },
-      { id: "risk_scoring", label: "Azure Risk Scoring Logic", type: "automation", details: "Triggers third-party bureau credit checks and scores application portfolios under rigid tolerances." },
+      { id: "risk_scoring", label: "AWS \/ GCP \/ Azure Risk Scoring Logic", type: "automation", details: "Triggers third-party bureau credit checks and scores application portfolios under rigid tolerances." },
       { id: "ledger", label: "Transactional Finance Ledger", type: "data", details: "Writes audited loan approval payloads to resilient backend ledgers for securitization pools." }
     ],
     flows: [
@@ -768,14 +768,14 @@ export const INDUSTRY_SYSTEMS: IndustrySystem[] = [
 export const RESEARCH_ARTICLES: ResearchArticle[] = [
   {
     id: "art_power_governance",
-    title: "Governing the Edge: Power Platform Architectures at Enterprise Scale",
-    category: "Power Platform",
-    excerpt: "How global organizations can transition away from fragmented 'shadow IT' databases into tightly structured, IT-approved Dataverse environments without halting developer velocity.",
+    title: "Governing the Edge: Full-Stack Cloud Architectures at Enterprise Scale",
+    category: "Full-Stack Cloud",
+    excerpt: "How global organizations can transition away from fragmented 'shadow IT' databases into tightly structured, IT-approved Global Database Clusters environments without halting developer velocity.",
     readTime: "9 Min Read",
     author: "Marc Verhoeven, Chief Architect",
     publishedAt: "May 2026",
     content: "Enterprise software strategy has undergone a severe decentralization wave. Business units, tired of legacy IT backlogs, have taken creation into their own hands, deploying thousands of custom tools. When unmanaged, this pattern compromises data compliance, creating massive operational security vulnerabilities. This brief charts Hemisystems' framework for deploying high-integrity environments under strict DevOps boundaries...",
-    aiSummary: "The strategic blueprint to establish unified Environment Routing, secure Data Loss Prevention (DLP) parameters in Tenant Settings, and convert unstructured localized employee initiatives into governed Power App environments backed by transactional Dataverse relational schema blocks.",
+    aiSummary: "The strategic blueprint to establish unified Environment Routing, secure Data Loss Prevention (DLP) parameters in Tenant Settings, and convert unstructured localized employee initiatives into governed Power App environments backed by transactional Global Database Clusters relational schema blocks.",
     recommended: ["art_azure_openai", "art_dataverse_patterns"]
   },
   {
@@ -786,20 +786,20 @@ export const RESEARCH_ARTICLES: ResearchArticle[] = [
     readTime: "12 Min Read",
     author: "Dr. Elena Rostova, AI Engineering Lead",
     publishedAt: "April 2026",
-    content: "Most enterprise AI implementations fail to escape developer sandbox environments because they are isolated from real data. Deploying models that can actually complete business work requires feeding live structured database tables safely into context prompts without compromising transactional integrity. This piece outlines secure Azure OpenAI setups using vector-embedded schemas...",
-    aiSummary: "A technical evaluation of why static prompt templates result in system hallucination, showing how custom relational data stored inside SQL Server and Dataverse schemas can are safely translated into structured system prompts, grounded via semantic micro-queries in milliseconds.",
+    content: "Most enterprise AI implementations fail to escape developer sandbox environments because they are isolated from real data. Deploying models that can actually complete business work requires feeding live structured database tables safely into context prompts without compromising transactional integrity. This piece outlines secure AI Foundation Models setups using vector-embedded schemas...",
+    aiSummary: "A technical evaluation of why static prompt templates result in system hallucination, showing how custom relational data stored inside SQL Server and Global Database Clusters schemas can are safely translated into structured system prompts, grounded via semantic micro-queries in milliseconds.",
     recommended: ["art_power_governance", "art_integration_failures"]
   },
   {
     id: "art_dataverse_patterns",
-    title: "Architecting the Core: Transactional Strategy in Microsoft Dataverse",
+    title: "Architecting the Core: Transactional Strategy in Microsoft Global Database Clusters",
     category: "Data Platforms",
     excerpt: "An architectural guide to deploying relational entities, securing data records to fine-grained role permissions, and setting up automated scale thresholds for million-row datasets.",
     readTime: "8 Min Read",
     author: "David Vance, Executive Architect",
     publishedAt: "March 2026",
-    content: "Relational data modeling is the foundation of high-performance business applications. This architectural blueprint details the internal mechanisms of Dataverse, addressing partition indices, relational integrity constraints, and how secure plugins should act on transactional triggers under heavy peak work loads...",
-    aiSummary: "Deep analytical dive outlining the optimization of Dataverse schema indices, establishing resilient, role-based row-level permissions, and linking tables directly to Azure Data Lake setups via real-time Synapse Link connections.",
+    content: "Relational data modeling is the foundation of high-performance business applications. This architectural blueprint details the internal mechanisms of Global Database Clusters, addressing partition indices, relational integrity constraints, and how secure plugins should act on transactional triggers under heavy peak work loads...",
+    aiSummary: "Deep analytical dive outlining the optimization of Global Database Clusters schema indices, establishing resilient, role-based row-level permissions, and linking tables directly to AWS \/ GCP \/ Azure Data Lake setups via real-time Synapse Link connections.",
     recommended: ["art_power_governance", "art_integration_failures"]
   },
   {
@@ -810,8 +810,8 @@ export const RESEARCH_ARTICLES: ResearchArticle[] = [
     readTime: "11 Min Read",
     author: "Yasin Al-Jamil, Integration Practice Lead",
     publishedAt: "February 2026",
-    content: "Screen scraping processes break on minor frontend text color mutations. For critical enterprise transaction tracks, using system UI robots represents a severe structural failure. Modern architecture demands moving towards event-driven API loops backed by message brokers like Azure Service Bus and clean gRPC endpoints...",
-    aiSummary: "A comparative case study outlining how transitioning a global distribution firm away from UI-scraping automation robots to direct Azure API routes reduced operational downtime incidents from 40 incidents per month down to zero.",
+    content: "Screen scraping processes break on minor frontend text color mutations. For critical enterprise transaction tracks, using system UI robots represents a severe structural failure. Modern architecture demands moving towards event-driven API loops backed by message brokers like AWS \/ GCP \/ Azure Service Bus and clean gRPC endpoints...",
+    aiSummary: "A comparative case study outlining how transitioning a global distribution firm away from UI-scraping automation robots to direct AWS \/ GCP \/ Azure API routes reduced operational downtime incidents from 40 incidents per month down to zero.",
     recommended: ["art_azure_openai", "art_dataverse_patterns"]
   }
 ];
@@ -823,7 +823,7 @@ export const REVIEW_QUESTIONS: ReviewQuestion[] = [
     text: "How many disconnected applications must an employee open to complete a single customer transaction?",
     options: [
       { value: "one", label: "1 Unified Dashboard (Clean target state)", score: 10, tip: "Excellent operational coherence. Maintain performance guidelines." },
-      { value: "two_three", label: "2 - 3 Apps (Moderate tool-hopping)", score: 7, tip: "Consider connecting applications with standard Power Apps canvas integration." },
+      { value: "two_three", label: "2 - 3 Apps (Moderate tool-hopping)", score: 7, tip: "Consider connecting applications with standard Custom Web Apps canvas integration." },
       { value: "four_more", label: "4 or more separate systems (High cognitive overhead)", score: 3, tip: "Critical Bottleneck. High chance of data entry failures and severe employee fatigue." }
     ]
   },

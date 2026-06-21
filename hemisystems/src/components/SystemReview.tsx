@@ -38,7 +38,7 @@ const LOCAL_QUESTIONS: ReviewQuestion[] = [
     options: [
       { value: "data_entry", score: 5, label: "Manual data entry and copying between tools", tip: "Automate edge entries using standardized ingress APIs." },
       { value: "approvals", score: 8, label: "Scattered approvals and lost email chains", tip: "Centralize approvals in a zero-trust State Machine." },
-      { value: "reporting", score: 6, label: "Generating reports from siloed legacy databases", tip: "Implement an Azure Fabric or Dataverse lakehouse." },
+      { value: "reporting", score: 6, label: "Generating reports from siloed legacy databases", tip: "Implement an Cloud Platforms Fabric or Cloud Databases lakehouse." },
       { value: "scaling", score: 10, label: "System crashes during peak demand spikes", tip: "Decouple architecture and introduce Event-Driven scaling." }
     ]
   },
@@ -47,8 +47,8 @@ const LOCAL_QUESTIONS: ReviewQuestion[] = [
     text: "What systems are involved?",
     options: [
       { value: "legacy_erp", score: 10, label: "Legacy on-premise ERPs (SAP, Oracle)", tip: "Consider selective strangler-pattern API gateways to legacy ERPs." },
-      { value: "cloud_crm", score: 8, label: "Cloud CRM platforms (Salesforce, Dynamics)", tip: "Extend your CRM's object definition into unified operational apps." },
-      { value: "custom_apps", score: 6, label: "Internal custom-built niche applications", tip: "Refactor unmanaged internal apps using Power Platform." },
+      { value: "cloud_crm", score: 8, label: "Cloud CRM platforms (Salesforce, HubSpot)", tip: "Extend your CRM's object definition into unified operational apps." },
+      { value: "custom_apps", score: 6, label: "Internal custom-built niche applications", tip: "Refactor unmanaged internal apps using Full-Stack Cloud." },
       { value: "spreadsheets", score: 5, label: "Offline Excel files and unstructured SharePoint lists", tip: "Move offline tabular data into a governed cloud database." }
     ]
   },
@@ -57,7 +57,7 @@ const LOCAL_QUESTIONS: ReviewQuestion[] = [
     text: "What data is required?",
     options: [
       { value: "client_data", score: 8, label: "Sensitive structured client data (PII/Financial)", tip: "Apply Zero-Trust API policies when accessing PII." },
-      { value: "telemetry", score: 10, label: "High-volume machine telemetry or IoT logs", tip: "Implement high-throughput stream ingestion (e.g. Azure Event Hubs)." },
+      { value: "telemetry", score: 10, label: "High-volume machine telemetry or IoT logs", tip: "Implement high-throughput stream ingestion (e.g. Cloud Platforms Event Hubs)." },
       { value: "documents", score: 6, label: "Unstructured PDFs, emails, and images", tip: "Apply AI Cognitive extraction models to parse unstructured files." },
       { value: "financial", score: 8, label: "Complex financial transaction ledgers", tip: "Establish immutable event sourcing patterns for financial integrity." }
     ]
@@ -69,7 +69,7 @@ const LOCAL_QUESTIONS: ReviewQuestion[] = [
       { value: "cost", score: 6, label: "Immediate reduction in operational overhead", tip: "Target robotic process automation (RPA) for high-frequency low-value tasks." },
       { value: "speed", score: 10, label: "Sub-second, real-time pipeline velocity", tip: "Upgrade monolithic databases to distributed event-streaming processing." },
       { value: "accuracy", score: 8, label: "100% elimination of human data errors", tip: "Lock down interface validation boundaries and remove manual overrides." },
-      { value: "ai_readiness", score: 10, label: "Structuring the enterprise for Copilot/AI adoption", tip: "Map all siloed data into a unified, semantically tagged knowledge graph." }
+      { value: "ai_readiness", score: 10, label: "Structuring the enterprise for Generative AI adoption", tip: "Map all siloed data into a unified, semantically tagged knowledge graph." }
     ]
   },
   {
@@ -86,8 +86,8 @@ const LOCAL_QUESTIONS: ReviewQuestion[] = [
     id: "technology",
     text: "What technologies are currently used?",
     options: [
-      { value: "microsoft", score: 8, label: "Microsoft 365, Dynamics, Azure", tip: "You are primed to activate deep Power Platform integrations." },
-      { value: "aws", score: 8, label: "AWS, Custom Nodes, Databricks", tip: "Connect Azure AI/Fabric elements universally as an augmentation layer." },
+      { value: "microsoft", score: 8, label: "M365, AWS, Salesforce", tip: "You are primed to activate deep Full-Stack Cloud integrations." },
+      { value: "aws", score: 8, label: "AWS, Custom Nodes, Databricks", tip: "Connect AWS SageMaker AI elements universally as an augmentation layer." },
       { value: "google", score: 8, label: "Google Cloud, Workspace, BigQuery", tip: "Utilize cross-cloud API wrappers for centralized coordination." },
       { value: "mixed", score: 10, label: "Severely mixed, fragmented, or unknown", tip: "Perform a mandatory enterprise architecture reconciliation audit." }
     ]

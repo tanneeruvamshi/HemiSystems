@@ -83,7 +83,7 @@ export default function BlueprintBuilder() {
       technologies: Array.from(new Set(techs)),
       integration: integrations[0] || "Asynchronous Microservices APIs",
       automation: automations[0] || "Event-driven Flow Automations",
-      ai: ais[0] || "Isolated Secure Azure OpenAI models",
+      ai: ais[0] || "Isolated Secure AI Foundation Models models",
       roadmap: Array.from(new Set(roadmapTasks))
     };
   };
